@@ -15,3 +15,5 @@ some_number = 10000
 # booleans
 true_boolean = true
 false_booleans = false
+# string
+my_name = "Brian Karsann"
