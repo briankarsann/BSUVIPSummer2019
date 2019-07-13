@@ -95,4 +95,5 @@ dictionary_tk = {
 }
 
 
+print("My name is %s" %(dictionary_tk["name"]))
 
