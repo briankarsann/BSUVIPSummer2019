@@ -16,6 +16,6 @@ some_number = 10000
 true_boolean = true
 false_booleans = false
 # string
-my_name = "Brian Karsann"
+my_name = "Brian Karsann";
 if True: 
 	print("Hello Python If")
