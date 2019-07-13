@@ -59,6 +59,14 @@ print(my_integers[0])
 print(my_integers[1]) 
 print(my_integers[4])
 
+relatives_names = [
+	"Toshiaki",
+	"Yuji", 
+	"Bruno",
+	"Kaio",
+]
+
+
 
 
 
