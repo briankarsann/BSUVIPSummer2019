@@ -135,3 +135,8 @@ dictionary_tk = {
 	"age": 21
 }
 
+
+for attribute, value in dictionary_tk.items():
+	print("My %s is %s" %(atttribute, value))
+	
+	
