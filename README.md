@@ -33,4 +33,8 @@ else:
 	print ("1 is equal to 2")
 num = 1
 
+while num <= 10:
+	print(num)
+	num += 1
+
 
