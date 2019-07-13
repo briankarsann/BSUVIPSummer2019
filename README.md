@@ -107,3 +107,13 @@ dictionary_tk['age'] = 21
 
 
 print(dictionary_tk) 
+
+
+bookshelf = [
+	"The Effective Engineer",
+	"The 4 hours work week",
+	"Zero to One",
+	"Lean Startup",
+	"Hooked"
+] 
+
