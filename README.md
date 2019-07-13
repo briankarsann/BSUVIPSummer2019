@@ -97,3 +97,5 @@ dictionary_tk = {
 
 print("My name is %s" %(dictionary_tk["name"]))
 
+
+print("But you can call me %s" %(dictionary_tk["nickname"]))
