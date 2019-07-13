@@ -128,3 +128,10 @@ for key in dictionary:
 	print("%s --> %s" %(key, dictionary[key]))
 	
 	
+dictionary_tk = {
+	"name": "Brian",
+	"nickname": "ManBearPig",
+	"nationality": "American",
+	"age": 21
+}
+
