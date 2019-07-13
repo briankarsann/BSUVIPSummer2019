@@ -139,4 +139,8 @@ dictionary_tk = {
 for attribute, value in dictionary_tk.items():
 	print("My %s is %s" %(atttribute, value))
 	
+
+class Vehicle:
+	pass
 	
+
