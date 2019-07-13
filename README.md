@@ -12,3 +12,6 @@ else:
 one = 1
 two = 2
 some_number = 10000
+# booleans
+true_boolean = true
+false_booleans = false
