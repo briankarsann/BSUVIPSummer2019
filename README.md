@@ -103,4 +103,7 @@ print("But you can call me %s" %(dictionary_tk["nickname"]))
 print("And by the way I'm %s" %(dictionary_tk["nationality"]))
 
 
+dictionary_tk['age'] = 21
 
+
+print(dictionary_tk) 
