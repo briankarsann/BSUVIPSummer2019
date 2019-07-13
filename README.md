@@ -87,5 +87,12 @@ dictionary_example = {
 }
 
 
+dictionary_tk = {
+	"name": "Brian",
+	"nickname": "ManBearPig",
+	"nationality": "American",
+	"age": "21",
+}
+
 
 
