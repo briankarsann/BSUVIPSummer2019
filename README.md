@@ -9,3 +9,4 @@ if True:
 	print "True"
 else:
 	print "False" 
+one = 1
