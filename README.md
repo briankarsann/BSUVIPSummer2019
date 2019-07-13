@@ -117,3 +117,7 @@ bookshelf = [
 	"Hooked"
 ] 
 
+
+for book in bookshelf:
+	print(book)
+	
