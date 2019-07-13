@@ -99,3 +99,8 @@ print("My name is %s" %(dictionary_tk["name"]))
 
 
 print("But you can call me %s" %(dictionary_tk["nickname"]))
+
+print("And by the way I'm %s" %(dictionary_tk["nationality"]))
+
+
+
