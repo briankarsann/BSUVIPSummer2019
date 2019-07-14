@@ -197,3 +197,6 @@ System.out.println("Hello "+ name);
 	}
 
 }
+
+	//Java Member variable Types
+	//Local Variable, instance variable, Class/static variable
