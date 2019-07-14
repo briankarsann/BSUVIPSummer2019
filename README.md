@@ -158,3 +158,10 @@ class Vehicle:
 
 tesla_model_s = Vehicle(4, 'electric', 5, 250)
 
+
+def number_of_wheels(self):
+	return self.number_of_wheels
+	
+def set_number_of_wheels(self, number):
+	self.number_of_wheels = number 
+	
