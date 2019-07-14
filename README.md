@@ -194,6 +194,8 @@ public static void main(String[] args) {
 		String name = scanner.nextLine();
 		
 System.out.println("Hello "+ name);
+
+String string = new String("This is a string");
 	}
 
 }
