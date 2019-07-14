@@ -181,6 +181,11 @@ class Vehicle:
 	def number_of_wheels(self, number):
 		self.__number_of_wheels = number 
 		
-		public static void main(String[] args) { 
-		System.out.println("What is your name?");
+		
+public static void main(String[] args) { 
+System.out.println("What is your name?");
+		
+//type identifier = new type()
+Scanner scanner = new Scanner(System.in);
+		String name = scanner.nextLine();
 		
