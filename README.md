@@ -196,6 +196,7 @@ public static void main(String[] args) {
 System.out.println("Hello "+ name);
 
 String string = new String("This is a string");
+String easier = "Wow, that was easy!";
 System.out.println(string + ":)");
 	}
 
