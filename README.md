@@ -2,8 +2,7 @@ brian karsann
 cade white
 forrest burt
 
-public static void main(String[] args) { 
-		System.out.println("Hey guys ");
+
 print ("hello, python");
 if True:
 	print "True"
@@ -181,7 +180,11 @@ class Vehicle:
 	def number_of_wheels(self, number):
 		self.__number_of_wheels = number 
 		
-		
+# Java
+
+public static void main(String[] args) { 
+		System.out.println("Hey guys ");
+
 public static void main(String[] args) { 
     System.out.println("What is your name?");
 		
