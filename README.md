@@ -183,9 +183,13 @@ class Vehicle:
 		
 		
 public static void main(String[] args) { 
-System.out.println("What is your name?");
+    System.out.println("What is your name?");
 		
 //type identifier = new type()
-Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
 		String name = scanner.nextLine();
 		
+System.out.println("Hello "+ name);
+	}
+
+}
