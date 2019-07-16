@@ -1,6 +1,6 @@
 Brian Karsann
 Cade White
-forrest burt
+Forrest burt
 
 
 print ("hello, python");
