@@ -1,9 +1,8 @@
+import java.util.Scanner;
+
 public static void main(String[] args) { 
 		System.out.println("Hey guys ");
-		
-import java.util.Scanner;
-public static void main(String[] args) { 
-    System.out.println("What is your name?");
+    		System.out.println("What is your name?");
 		
 //type identifier = new type()
     Scanner scanner = new Scanner(System.in);
