@@ -33,12 +33,12 @@ public class VIP
 			}
 			catch (FileNotFoundException e) // Catch proper exception if file isn't found and print message
 			{
-				output = "File not found. The file has likely been moved or deleted since the book was created.";																															
+				out = "File not found. The file has likely been moved or deleted since the book was created.";																															
 			}
 		}
 		System.out.println("Enter your password.");
-		typedPassword = input();
-		if typedPassword == secretPassword
+		Scanner typedPassword = new Scanner(System.in);
+		if(typedPassword == secretPassword)
 		{
 			print('Access Granted')
 		}
