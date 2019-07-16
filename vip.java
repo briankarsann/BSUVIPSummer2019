@@ -39,11 +39,12 @@ public class VIP
 		}
 		System.out.println("Enter your password.");
 		Scanner typedPassword = new Scanner(System.in);
-		if(typedPassword == secretPassword)
+		String password = typedPassword.nextLine();
+		if(password == secretPassword)
 		{
 			System.out.println("Access Granted");
 		}
-		else if typedPassword == '12345'
+		else if(password.equals("12345"))
 		{
 			print("That password is one that an idiot puts on their luggage.")
 		}
