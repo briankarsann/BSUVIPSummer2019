@@ -25,24 +25,23 @@ public class VIP
 			try
 			{
 				Scanner scanPass = new Scanner(passwordFile);
-				while (scanPass.hasNextLine()) // Cycle through all lines and add them to output with a line break
+				while (scanPass.hasNextLine())
 				{
 					String passLine = scanPass.nextLine();
 					secretPassword += passLine;
 				}
-				scanPass.close(); // Close the scanner
+				scanPass.close();
 			}
-			catch (FileNotFoundException e) // Catch proper exception if file isn't found and print message
+			catch (FileNotFoundException e)
 			{
-				System.out.println(
-						"File not found. The file has likely been moved or deleted since the book was created.");
+				System.out.println("File not found. The file has likely been moved or deleted since the book was created.");
 				System.exit(1);
 			}
 		}
 		System.out.println("Enter your password.");
 		Scanner typedPassword = new Scanner(System.in);
 		String password = typedPassword.nextLine();
-		if (password == secretPassword)
+		if (password.equals(secretPassword))
 		{
 			System.out.println("Access Granted");
 		}
@@ -54,5 +53,7 @@ public class VIP
 		{
 			System.out.println("Access Denied");
 		}
+		typedPassword.close();
+		scanner.close();
 	}
 }
