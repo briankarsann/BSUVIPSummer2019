@@ -15,7 +15,7 @@ public class VIP
 	String easier = "Wow, that was easy!";
 	System.out.println(easier);
 
-	passwordFile = open('SecretPasswordFile.txt')
+	passwordFile = open("SecretPasswordFile.txt")
 	secretPassword = passwordFile.read()
 	print('Enter your password.')
 	typedPassword = input()
@@ -25,11 +25,11 @@ public class VIP
 	}
 	else if typedPassword == '12345'
 	{
-		print('That password is one that an idiot puts on their luggage.')
+		print("That password is one that an idiot puts on their luggage.")
 	}
 	else
 	{
-		print('Access Denied');
+		print("Access Denied");
 	}
 
 }
