@@ -3,16 +3,14 @@ import java.util.Scanner;
 public static void main(String[] args) { 
 		System.out.println("Hey guys ");
     		System.out.println("What is your name?");
-		
-//type identifier = new type()
-    Scanner scanner = new Scanner(System.in);
+   		 Scanner scanner = new Scanner(System.in);
 		String name = scanner.nextLine();
 		
-System.out.println("Hello "+ name);
+		System.out.println("Hello " + name);
 
-String string = new String("This is a string");
-String easier = "Wow, that was easy!";
-System.out.println(easier");
+		String string = new String("This is a string");
+		String easier = "Wow, that was easy!";
+		System.out.println(easier");
 	}
 
 }
