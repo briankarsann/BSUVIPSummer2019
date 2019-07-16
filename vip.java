@@ -18,17 +18,18 @@ public class VIP
 		System.out.println(easier);
 
 		File passwordFile = new File("SecretPasswordFile.txt");
+		String out = "";
 		if (passwordFile.exists() && passwordFile.isFile())
 		{
 			try 
 			{
-				Scanner scanBook = new Scanner(bookFile); 
-				while (scanBook.hasNextLine()) // Cycle through all lines and add them to output with a line break
+				Scanner scanPass = new Scanner(passwordFile); 
+				while (scanPass.hasNextLine()) // Cycle through all lines and add them to output with a line break
 				{
-					String bookLine = scanBook.nextLine();
-					output += bookLine + "\n";
+					String passLine = scanPass.nextLine();
+					out += passLine;
 				}
-				scanBook.close(); // Close the scanner
+				scanPass.close(); // Close the scanner
 			}
 			catch (FileNotFoundException e) // Catch proper exception if file isn't found and print message
 			{
