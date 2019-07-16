@@ -33,7 +33,8 @@ public class VIP
 			}
 			catch (FileNotFoundException e) // Catch proper exception if file isn't found and print message
 			{
-				System.out.println("File not found. The file has likely been moved or deleted since the book was created.");																															
+				System.out.println("File not found. The file has likely been moved or deleted since the book was created.");	
+				System.exit(1);
 			}
 		}
 		System.out.println("Enter your password.");
