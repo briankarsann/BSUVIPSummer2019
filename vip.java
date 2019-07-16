@@ -25,7 +25,8 @@ public class VIP
 		{
 			print('That password is one that an idiot puts on their luggage.')
 		}
-		else:
+		else
 			print('Access Denied');
+	}
 
 }
