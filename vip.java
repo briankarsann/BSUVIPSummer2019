@@ -41,7 +41,7 @@ public class VIP
 		Scanner typedPassword = new Scanner(System.in);
 		if(typedPassword == secretPassword)
 		{
-			print('Access Granted')
+			System.out.println("Access Granted");
 		}
 		else if typedPassword == '12345'
 		{
