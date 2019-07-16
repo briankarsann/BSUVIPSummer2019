@@ -18,7 +18,7 @@ public class VIP
 		System.out.println(easier);
 
 		File passwordFile = new File("SecretPasswordFile.txt");
-		String out = "";
+		String secretPassword = "";
 		if (passwordFile.exists() && passwordFile.isFile())
 		{
 			try 
@@ -27,13 +27,13 @@ public class VIP
 				while (scanPass.hasNextLine()) // Cycle through all lines and add them to output with a line break
 				{
 					String passLine = scanPass.nextLine();
-					out += passLine;
+					secretPassword += passLine;
 				}
 				scanPass.close(); // Close the scanner
 			}
 			catch (FileNotFoundException e) // Catch proper exception if file isn't found and print message
 			{
-				out = "File not found. The file has likely been moved or deleted since the book was created.";																															
+				System.out.println("File not found. The file has likely been moved or deleted since the book was created.");																															
 			}
 		}
 		System.out.println("Enter your password.");
