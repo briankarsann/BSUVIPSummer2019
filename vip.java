@@ -24,6 +24,6 @@ public class VIP
 		if typedPassword == '12345' :
 		print('That password is one that an idiot puts on their luggage.')
 		else:
-	print('Access Denied');
+			print('Access Denied');
 
 }
