@@ -5,7 +5,7 @@ public class VIP
 
 	public static void main(String[] args) { 
 		System.out.println("Hey guys ");
-    		System.out.println("What is your name?");
+    	System.out.println("What is your name?");
    		Scanner scanner = new Scanner(System.in);
 		String name = scanner.nextLine();
 		
@@ -15,11 +15,11 @@ public class VIP
 		String easier = "Wow, that was easy!";
 		System.out.println(easier);
 
-		passwordFile = open("SecretPasswordFile.txt")
-		secretPassword = passwordFile.read()
-		print('Enter your password.')
-		typedPassword = input()
-		if typedPassword == secretPassword:
+		File passwordFile = new File("SecretPasswordFile.txt");
+		secretPassword = passwordFile.read();
+		System.out.println("Enter your password.");
+		typedPassword = input();
+		if typedPassword == secretPassword
 		{
 			print('Access Granted')
 		}
