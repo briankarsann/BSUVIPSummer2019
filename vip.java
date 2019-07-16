@@ -13,8 +13,7 @@ public class VIP
 		String name = scanner.nextLine();
 
 		System.out.println("Hello " + name);
-
-		String string = new String("This is a string");
+		
 		String easier = "Wow, that was easy!";
 		System.out.println(easier);
 
@@ -34,9 +33,14 @@ public class VIP
 			}
 			catch (FileNotFoundException e)
 			{
-				System.out.println("File not found. The file has likely been moved or deleted since the book was created.");
+				System.out.println("File not found.");
 				System.exit(1);
 			}
+		}
+		else
+		{
+			System.out.println("File not found.");
+			System.exit(1);
 		}
 		System.out.println("Enter your password.");
 		Scanner typedPassword = new Scanner(System.in);
