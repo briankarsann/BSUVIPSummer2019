@@ -7,7 +7,7 @@ public class VIP
 
 	public static void main(String[] args)
 	{
-		System.ou.println("Hey guys ");
+		System.out.println("Hey guys ");
 		System.out.println("What is your name?");
 		Scanner scanner = new Scanner(System.in);
 		String name = scanner.nextLine();
