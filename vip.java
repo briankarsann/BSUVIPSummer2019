@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class VI
+public class VIP
 {
 
 	public static void main(String[] args)
