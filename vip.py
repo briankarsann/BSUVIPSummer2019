@@ -1,4 +1,4 @@
-prin ("hello, python");
+print ("hello, python");
 
 # booleans
 true_boolean = true
